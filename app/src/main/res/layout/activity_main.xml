@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lcc_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_end_margin"
+            android:layout_marginLeft="@dimen/activity_start_margin"
+            android:layout_marginRight="@dimen/activity_end_margin"
+            android:layout_marginStart="@dimen/activity_start_margin"
+            android:layout_marginTop="@dimen/tv_welcome_top_margin"
+            android:text="@string/lcc_welcome"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/lcc_logo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iv_lcc_logo_height"
+            android:layout_below="@id/lcc_welcome"
+            android:background="@color/colorAccent"
+            android:contentDescription="@string/the_logo_of_christian_church"
+            android:src="@drawable/lcc_logo" />
+
+        <TextView
+            android:id="@+id/lcc_motto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lcc_logo"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/activity_bottom"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/lcc_motto"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="italic|bold" />
+
+
+        <TextView
+            android:id="@+id/lcc_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lcc_motto"
+            android:layout_marginBottom="@dimen/activity_bottom"
+            android:layout_marginStart="@dimen/activity_start_margin"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="@dimen/activity_text_view_padding"
+            android:drawableStart="@drawable/ic_phone"
+            android:text="@string/lcc_phone_number"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/lcc_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lcc_phone"
+            android:layout_marginBottom="@dimen/activity_bottom"
+            android:layout_marginStart="@dimen/activity_start_margin"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="@dimen/activity_text_view_padding"
+            android:drawableStart="@drawable/ic_location"
+            android:text="@string/lcc_location"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lcc_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lcc_location"
+            android:layout_marginBottom="@dimen/activity_bottom"
+            android:layout_marginStart="@dimen/activity_start_margin"
+            android:drawableLeft="@drawable/ic_access_time"
+            android:drawablePadding="@dimen/activity_text_view_padding"
+            android:drawableStart="@drawable/ic_access_time"
+            android:text="@string/lcc_working_hours"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lcc_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lcc_time"
+            android:layout_marginBottom="@dimen/activity_bottom"
+            android:layout_marginStart="@dimen/activity_start_margin"
+            android:drawableLeft="@drawable/ic_description"
+            android:drawablePadding="@dimen/activity_text_view_padding"
+            android:drawableStart="@drawable/ic_description"
+            android:text="@string/lcc_description"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lcc_description"
+            android:layout_marginBottom="@dimen/activity_bottom"
+            android:background="@color/colorAccent">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/social_square_icons_length"
+                android:layout_weight="1"
+                android:contentDescription="@string/facebook_logo"
+                app:srcCompat="@drawable/facebook_logo" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/social_square_icons_length"
+                android:layout_weight="1"
+                android:contentDescription="@string/twitter_logo"
+                app:srcCompat="@drawable/twitter" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/social_square_icons_length"
+                android:layout_weight="1"
+                android:contentDescription="@string/whatsapp_logo"
+                app:srcCompat="@drawable/whatsapp_logo" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--The top margin for the welcome text view-->
+    <dimen name="tv_welcome_top_margin">16dp</dimen>
+
+    <!--The start margin for activity-->
+    <dimen name="activity_start_margin">8dp</dimen>
+
+    <!--The end margin for the welcome text view-->
+    <dimen name="activity_end_margin">8dp</dimen>
+
+    <!--The height of the LCC Logo-->
+    <dimen name="iv_lcc_logo_height">200dp</dimen>
+
+    <!--Activity TextView margin-->
+    <dimen name="activity_text_view_padding">16dp</dimen>
+
+    <!--Activity linear layout bottom margin-->
+    <dimen name="activity_bottom">10dp</dimen>
+
+    <!--Width and height of social icons-->
+    <dimen name="social_square_icons_length">48dp</dimen>
+
+</resources>

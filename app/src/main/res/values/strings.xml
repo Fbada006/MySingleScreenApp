@@ -1,0 +1,39 @@
+<resources>
+    <!--Name of the app-->
+    <string name="app_name">MySingleScreenAppForReview</string>
+
+    <!--The welcome text-->
+    <string name="lcc_welcome">Hello World! The door is open to…</string>
+
+    <!--The motto of the church-->
+    <string name="lcc_motto">Where freedom reigns!</string>
+
+    <!--Content description (CD) of the LCC logo-->
+    <string name="the_logo_of_christian_church">The logo of Christian Church</string>
+
+    <!--The phone number of LCC-->
+    <string name="lcc_phone_number">XXXX XXX XXX</string>
+
+    <!--Location of LCC-->
+    <string name="lcc_location">Along Msa - Nairobi highway, A109, Kasarani, Voi.</string>
+
+    <!--Working hours of LCC-->
+    <string name="lcc_working_hours"><![CDATA[
+                        Mon - Fri: 9AM - 4PM
+                       \nSat: 9AM - 12PM
+                       \nSun: 10AM - 01:30PM.
+                        ]]> </string>
+
+    <!--Description of LCC-->
+    <string name="lcc_description">Liberty Christian church is a nondenominational, independent, congregational
+        led church located at Kasarani, Majengo in Voi, Kenya.</string>
+
+    <!--CD of the fb icon-->
+    <string name="facebook_logo">Facebook logo</string>
+
+    <!--CD of the twitter icon-->
+    <string name="twitter_logo">Twitter logo</string>
+
+    <!--CD of the whatsapp icon-->
+    <string name="whatsapp_logo">WhatsApp logo</string>
+</resources>
