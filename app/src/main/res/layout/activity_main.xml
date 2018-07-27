@@ -58,6 +58,8 @@
             android:drawablePadding="@dimen/activity_text_view_padding"
             android:drawableStart="@drawable/ic_phone"
             android:text="@string/lcc_phone_number"
+            android:autoLink="phone"
+            android:textColorLink="@android:color/holo_red_dark"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="18sp" />
@@ -73,9 +75,8 @@
             android:drawableLeft="@drawable/ic_location"
             android:drawablePadding="@dimen/activity_text_view_padding"
             android:drawableStart="@drawable/ic_location"
-            android:text="@string/lcc_location"
-            android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="@string/lcc_location"
             android:textSize="18sp" />
 
         <TextView
